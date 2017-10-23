@@ -1,0 +1,45 @@
+{
+  "name": "test-threejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && cross-env NODE_ENV=production node ./build/build",
+    "dev": "cross-env NODE_ENV=development node ./build/dev-server"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.33",
+    "@types/three": "^0.84.26",
+    "autoprefixer": "^7.1.1",
+    "awesome-typescript-loader": "^3.2.3",
+    "chalk": "^2.0.1",
+    "cross-env": "^5.0.1",
+    "css-loader": "^0.28.4",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.15.3",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "postcss-loader": "^2.0.6",
+    "source-map-loader": "^0.2.2",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.3.7",
+    "tslint": "^5.7.0",
+    "tslint-config-airbnb": "^5.3.0",
+    "typescript": "^2.5.3",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.0.0",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-hot-middleware": "^2.18.2",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^17.1.1",
+    "dat.gui": "git+https://github.com/dataarts/dat.gui.git",
+    "stats.js": "git+https://github.com/mrdoob/stats.js.git",
+    "three": "^0.87.1",
+    "vue": "^2.4.4"
+  }
+}

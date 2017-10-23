@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "module":"es6",
+    "target": "es5",
+    "noImplicitAny": true,
+    // "sourceMap": true,
+    "allowJs": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    // "allowSyntheticDefaultImports": true,
+    "types": [
+      "node"
+    ],
+    "baseUrl": ".",
+    "typeRoots": [
+      "@types",
+      "./typings"
+    ]
+  },
+  "files": [
+    "typings/globals.d.ts",
+    "src/app.ts"
+  ],
+  "include": [
+    "./src/**/*"
+  ]
+}

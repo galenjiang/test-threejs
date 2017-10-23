@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "tslint-config-airbnb"
+    // "tslint-config-prettier"
+  ],
+  "rules": {
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "max-line-length": false,
+    "import-name": false,
+    "one-variable-per-declaration": [true, "ignore-for-loop"]
+  }
+}
