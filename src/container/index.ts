@@ -3,7 +3,7 @@ import { Clock, WebGLRenderer, Scene, PerspectiveCamera, Vector3, AxisHelper
   , GridHelper, BoxGeometry, Color, MeshBasicMaterial, Mesh, VertexColors,
 } from 'three'
 
-import Stats from 'stats.js'
+import * as Stats from '../script/lib/stats'
 import OrbitControls from '../script/lib/OrbitControls'
 
 import '../css/reset.css'
@@ -50,12 +50,12 @@ const init = () => {
   }
 
   const initStats = () => {
-    stats = new Stats()
+    stats = new (Stats as any)()
     stats.showPanel(0)
     app.appendChild(stats.dom)
   }
   const initControls = () => {
-    controls = new (OrbitControls)(camera, renderer.domElement)
+    controls = new (OrbitControls as any)(camera, renderer.domElement)
     controls.addEventListener('change', render) // remove when using animation loop
     // enable animation loop when using damping or autorotation
     // controls.enableDamping = true;

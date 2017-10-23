@@ -1,6 +1,4 @@
-declare module 'stats.js' {
-  var Stats: any
-  export default Stats
-}
-declare var Orbitontrols: any
+declare function Stats(): any
+
+declare function Orbitontrols(): any
 

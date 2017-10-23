@@ -12,9 +12,9 @@
   "devDependencies": {
     "@types/node": "^8.0.33",
     "@types/three": "^0.84.26",
-    "autoprefixer": "^7.1.1",
+    "autoprefixer": "^7.1.6",
     "awesome-typescript-loader": "^3.2.3",
-    "chalk": "^2.0.1",
+    "chalk": "^2.2.0",
     "cross-env": "^5.0.1",
     "css-loader": "^0.28.4",
     "eventsource-polyfill": "^0.9.6",
@@ -37,8 +37,6 @@
   },
   "dependencies": {
     "@tweenjs/tween.js": "^17.1.1",
-    "dat.gui": "git+https://github.com/dataarts/dat.gui.git",
-    "stats.js": "git+https://github.com/mrdoob/stats.js.git",
     "three": "^0.87.1",
     "vue": "^2.4.4"
   }
