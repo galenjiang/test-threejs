@@ -1,5 +1,6 @@
 
-import { Clock, WebGLRenderer, Scene, PerspectiveCamera, Vector3, AxisHelper
+import {
+  Clock, WebGLRenderer, Scene, PerspectiveCamera, Vector3, AxisHelper
   , GridHelper, BoxGeometry, Color, MeshBasicMaterial, Mesh, VertexColors,
 } from 'three'
 
